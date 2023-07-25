@@ -5,25 +5,11 @@ div{
     border: 2px solid black;
     display: inline-block;
 }
+body{
+    background-image: url("puppy.jpg");
+    background-size: cover;
+}
 #box1{
-    background-color: blue;
-    position: static;
-}
-#box2{
-    background-color: brown;
-    position: relative;
-    top: 10px;
-    left: 20px;
-}
-#box3{
-    background-color: aqua;
-    position: absolute;
-    top: 10px;
-    left: 20px;
-}
-#box4{
-    position: fixed;
-    right: 0px;
-    bottom: 20px;
-    width: 100%;
+    background-image: url("puppy.jpg");
+    background-size: cover;
 }
