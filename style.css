@@ -1,11 +1,29 @@
-#box1{
-    width: 200px;
+div{
+    width: 100px;
     height: 100px;
-    background-color: blueviolet;
+    background-color: bisque;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    background-color: blue;
+    position: static;
 }
 #box2{
-    height: 50px;
-    width: 40%;
-    background-color: yellowgreen;
-    margin-left: 10%;
+    background-color: brown;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+#box3{
+    background-color: aqua;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+#box4{
+    position: fixed;
+    right: 0px;
+    bottom: 20px;
+    width: 100%;
 }
