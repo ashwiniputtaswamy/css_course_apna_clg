@@ -9,19 +9,28 @@ div{
 }
 #container{
     width: 800px;
-    height: 200px;
+    height: 500px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: flex-start; */
 }
 #box1{
     background-color: aqua;
+    flex-grow: 2;
 }
 #box2{
     background-color: bisque;
+    height: 150px;
+    flex-grow: 3;
 }
 #box3{
     background-color: blueviolet;
+    height: 70px;
 }
 #box4{
     background-color: chocolate;
+    /* align-self: flex-end; */
 }
