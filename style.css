@@ -1,15 +1,11 @@
 div{
-    width: 100px;
-    height: 100px;
-    background-color: bisque;
-    border: 2px solid black;
-    display: inline-block;
-}
-body{
+    height: 300px;
+    width: 300px;
     background-image: url("puppy.jpg");
     background-size: cover;
-}
-#box1{
-    background-image: url("puppy.jpg");
-    background-size: cover;
+    font-size: 20px;
+    color: azure;
+    position: fixed;
+    right: 0px;
+    top: 0px;
 }
