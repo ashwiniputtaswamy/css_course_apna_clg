@@ -1,35 +1,11 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-#navbar{
-    height: 60px;
-    background-color: black;
-}
-button{
-    background-color: #f08804;
-    color: white;
-}
-#title{
-    color: #f08804;
-    font-size: 25px;
-}
-a{
-    text-decoration: none;
-    color: white;
-    margin-right: 180px;
-}
-.contentbox{
+#box1{
+    width: 200px;
     height: 100px;
-    width: 100px;
-    border: 2px solid black;
-    display: inline-block;
+    background-color: blueviolet;
 }
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-#content{
-    height: 513px;
+#box2{
+    height: 50px;
+    width: 40%;
+    background-color: yellowgreen;
+    margin-left: 10%;
 }
